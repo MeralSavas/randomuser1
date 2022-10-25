@@ -1,0 +1,14 @@
+.container {
+  border: 2px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid red;
+}
+/* .card-img-top {
+  width: 50px;
+} */

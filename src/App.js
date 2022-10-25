@@ -1,10 +1,12 @@
 import "./App.css";
-import Main from "./components/Main";
+import Card from "./components/card/Card";
+// import Main from "./components/Main";
 
 function App() {
   return (
     <div>
-      <Main />
+      {/* <Main /> */}
+      <Card />
     </div>
   );
 }

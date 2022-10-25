@@ -5,7 +5,7 @@ import Dob from "../assets/dob.svg";
 import Location from "../assets/location.svg";
 import Mail from "../assets/email.svg";
 import Map from "../assets/map.svg";
-import "./Main.css";
+// import "./Main.css";
 
 const Main = () => {
   const [user, setUser] = useState("");
