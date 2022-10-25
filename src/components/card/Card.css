@@ -6,9 +6,10 @@
   align-items: center;
 }
 
-.card {
-  border: 2px solid red;
+#photo {
+  width: 7rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
 }
-/* .card-img-top {
-  width: 50px;
-} */
