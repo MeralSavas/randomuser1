@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 
 import "../card/Card.css";
 
-// import Phone from "../../assets/phone.svg";
-
 const Card = () => {
   const [user, setUser] = useState([]);
 
