@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+
 import "../card/Card.css";
 
 // import Phone from "../../assets/phone.svg";
@@ -21,31 +22,55 @@ const Card = () => {
   const { title, location, name, email, phone, picture, dob, registered } =
     user;
 
+  const buttonHandle = () => {
+    getUser();
+  };
+
   return (
     <>
       <div className="container">
-        <div className="card " style={{ width: "20rem" }}>
-          <img
-            src={user.picture?.large}
-            className="card-img-top rounded-circle"
-            alt="img"
-            id="photo"
-          />
+        <div id="card1" className="card " style={{ width: "30rem" }}>
           <div className="card-body">
-            <h5 className="card-title fs-6">
+            <img
+              src={user.picture?.large}
+              className="card-img-top rounded-circle"
+              alt="img"
+              id="photo"
+            />
+            <h4>
               {user.name?.title} {user.name?.first} {user.name?.last}
-            </h5>
+            </h4>
           </div>
 
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">{user.email}</li>
-            <li className="list-group-item">{user.location?.city}</li>
-            <li className="list-group-item">{user.phone}</li>
-            <li className="list-group-item">{user.dob?.age}</li>
-            <li className="list-group-item">
-              {new Date(user.registered?.date).toLocaleDateString()}
-            </li>
-          </ul>
+          <p>
+            <i className="fa-solid fa-envelope"></i>
+            {user.email}
+          </p>
+
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            {user.location?.city}
+          </p>
+
+          <p>
+            <i className="fa-solid fa-phone"></i>
+            {user.phone}
+          </p>
+
+          <p>
+            <i class="fa-solid fa-calendar-days me-3"></i>
+            Age: {user.dob?.age}
+          </p>
+          <p>
+            <i class="fa-solid fa-file-contract me-3"></i>
+            Register Date:
+            {new Date(user.registered?.date).toLocaleDateString()}
+          </p>
+        </div>
+        <div className="btn1">
+          <button className="btn" onClick={buttonHandle}>
+            Change User
+          </button>
         </div>
       </div>
     </>

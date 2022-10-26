@@ -6,7 +6,7 @@ import Card from "./components/card/Card";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       {/* <Main /> */}
       <Card />
     </div>
