@@ -5,13 +5,6 @@ https://user-images.githubusercontent.com/108305556/198121205-220994fc-0bc3-445f
 
 
 # Project-002 : Random User App 
-## Description
-
-Project aims to create a Random User App.
-
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
