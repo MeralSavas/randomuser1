@@ -2,8 +2,7 @@
 
 https://user-images.githubusercontent.com/108305556/198121205-220994fc-0bc3-445f-b845-f336c4c2c6f6.mov
 
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+
 
 # Project-002 : Random User App 
 ## Description
@@ -17,26 +16,23 @@ Project aims to create a Random User App.
 ## Project Skeleton
 
 ```
-002 - Random User App (folder)
+004 - Random User App 2 (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
 ├── public
 │     └── index.html
 ├── src
-│    ├── assets.js
-│    │       └── [images]
+│    ├── conponents
+│             ├── Card.jsx
+│             ├── Card.css
 │    ├── App.js
-│    ├── App.css
 │    ├── index.js
 │    └── index.css
 ├── package.json
 └── yarn.lock
 ```
 
-## Expected Outcome
-
-![Project 002 Snapshot](random-user-app.gif)
 
 ## Objective
 
@@ -57,6 +53,11 @@ Build a Random User App using ReactJS.
 - Improve coding skills within HTML & CSS & JS & ReactJS.
 
 - Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+
+## Resources
+
+- 🔥 You can use [`RandomUserApi`](https://randomuser.me/api/) for your own work.
+- 
 
 ## Steps to Solution
 
