@@ -5,7 +5,7 @@ import "../card/Card.css";
 
 const Card = () => {
   const [user, setUser] = useState([]);
-
+ //Api
   const url = "https://randomuser.me/api/";
   const getUser = async () => {
     const { data } = await axios.get(url);
