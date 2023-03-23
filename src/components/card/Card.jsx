@@ -1,5 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Location from "../../assets/location.svg";
+import Email from "../assets/email.svg";
+import Phone from "../assets/phone.svg";
 
 import "../card/Card.css";
 
