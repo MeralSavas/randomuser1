@@ -62,7 +62,3 @@ Build a Random User App using ReactJS.
 
 - Step 5: Add project gif to your project and README.md file.
 
-## Notes
-
-- You can add additional functionalities and design to your app.
-
