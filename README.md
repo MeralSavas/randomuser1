@@ -4,14 +4,14 @@ https://user-images.githubusercontent.com/108305556/198121205-220994fc-0bc3-445f
 
 
 
-# Project-002 : Random User App 
+# Project : Random User App 
 
 ## Project Skeleton
 
 ```
 004 - Random User App 2 (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md       
 SOLUTION
 ├── public
 │     └── index.html
@@ -40,12 +40,6 @@ Build a Random User App using ReactJS.
 - JS
 
 - ReactJS
-
-### At the end of the project, students will be able to;
-
-- Improve coding skills within HTML & CSS & JS & ReactJS.
-
-- Use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 ## Resources
 
