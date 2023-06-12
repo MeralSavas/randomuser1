@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/108305556/198121205-220994fc-0bc3-445f
 ## Project Skeleton
 
 ```
-004 - Random User App 2 (folder)
+Random User App 2 (folder)
 |
 |----readme.md       
 SOLUTION
@@ -31,7 +31,7 @@ SOLUTION
 
 Build a Random User App using ReactJS.
 
-### At the end of the project, following topics are to be covered;
+### Used Language
 
 - HTML
 
