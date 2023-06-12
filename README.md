@@ -26,11 +26,6 @@ SOLUTION
 └── yarn.lock
 ```
 
-
-## Objective
-
-Build a Random User App using ReactJS.
-
 ### Used Language
 
 - HTML
@@ -52,7 +47,4 @@ Build a Random User App using ReactJS.
 
 - Step 2: Build Random User App fetching data from `https://randomuser.me/api/` using `axios`.
 
-- Step 4: Push your application into your own public repo on Github.
-
-- Step 5: Add project gif to your project and README.md file.
 
