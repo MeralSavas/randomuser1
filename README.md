@@ -36,11 +36,6 @@ SOLUTION
 
 - ReactJS
 
-## Resources
-
-- 🔥 You can use [`RandomUserApi`](https://randomuser.me/api/) for your own work.
-- 
-
 ## Steps to Solution
 
 - Step 1: Create React App using `npx create-react-app random-user-app`.
